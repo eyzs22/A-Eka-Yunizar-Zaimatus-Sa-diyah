@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembagian Angka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pembagian Dua Angka</h1>
+    <form id="divisionForm">
+        <label for="num1">Angka Pertama:</label>
+        <input type="text" id="num1" required>
+        <br><br>
+        <label for="num2">Angka Kedua:</label>
+        <input type="text" id="num2" required>
+        <br><br>
+        <button type="submit">Bagi</button>
+    </form>
+    <h2>Hasil: <span id="result"></span></h2>
+    <p class="error" id="errorMessage"></p>
+
+    <script src="indexException2.js"></script>
+</body>
+</html>
